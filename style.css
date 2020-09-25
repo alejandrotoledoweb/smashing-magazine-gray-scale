@@ -356,3 +356,36 @@ margin: 0 auto;
   font-size: 18px;
   
 }
+
+.mid-section {
+  margin: 20px 0;
+  border: 1px solid red;
+}
+
+.mid-section h1 {
+  margin: 20px auto;
+  font-size: 40px;
+}
+
+.mid-section h1 a {
+  color: white;
+}
+
+.mid-section p {
+  font-size: 20px;
+  width: 60%;
+
+}
+.margin-20-auto {
+  margin: 20px auto;
+}
+
+.mid-section button {
+  width: 200px;
+  height: 50px;
+
+}
+
+.mid-section img {
+  width: 70%;
+}
