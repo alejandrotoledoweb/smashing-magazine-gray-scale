@@ -54,7 +54,7 @@ nav {
 .menu li {
   list-style: none;
   padding-right: 10px;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 main {
@@ -100,15 +100,20 @@ main {
 }
 
 .in-btn-text {
-  width: 250px;
+  width: 25%;
   text-align: center;
-  border: 1px solid red;
-  /* margin: 0 auto; */
+  font-size: 25px;
   position: absolute;
   top: 10px;
-  right: 40%;
+  left: 38%;
   z-index: 999;
-  /* float: left; */
+  color: black;
+}
+
+.in-btn-text span mark {
+  background-color: white;
+  line-height: 0.9;
+  padding: 5px 0;
 }
 
 .top-articles {
@@ -117,17 +122,21 @@ main {
 }
 
 .style-articles {
-  width: 30%;
-  padding: 120px 10px 20px 60px;
+  width: 50%;
+  padding: 70px 10px 20px 60px;
+  height: 570px;
+  position: relative;
 }
 
 
 .article-1 {
   background-color: #bbbdbf;
+  padding-top: 150px;
 }
 
 .article-2 {
   background-color: #acadad;
+  padding-top: 150px;
 }
 
 .article-3 {
@@ -154,6 +163,7 @@ main {
 .top-article-main-text {
   font-size: 40px;
   width: 500px;
+  margin: 20px 0 30px 0;
 }
 
 .top-article-main-text span {
@@ -161,9 +171,70 @@ main {
 }
 
 .hash p {
-  margin: 10px;
+  margin: 10px 10px 10px 0;
 }
 
 .article-arrow {
   font-size: 20px;
+  position: absolute;
+  bottom: 30px;
+}
+
+.article-row-1 {
+  width: 480px;
+  height: 400px;
+  padding: 20px;
+  position: relative;
+  background-color: #d6d6d6;
+}
+
+.article-row-1 h1 {
+  font-size: 30px;
+  padding: 20px 0;
+  text-decoration: underline;
+}
+
+.article-spacing {
+font-size: 12px;
+color: gray;
+padding-bottom: 20px;
+}
+
+.article-row-1 p {
+  color: gray;
+}
+
+.article-row-1 h5 span {
+  text-decoration: underline;
+}
+
+.corner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+}
+
+.corner i {
+  color: black;
+  position: relative;
+  z-index: 999;
+  top: 40%;
+  left: 40%;
+}
+
+.corner:hover {
+  background-color: gray;
+}
+
+.article-row-1:hover {
+  width: 520px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.inline-text {
+  background-color: #d6d6d6;
 }
