@@ -250,6 +250,8 @@ padding-bottom: 20px;
 
 .inline-text {
   background-color: #d6d6d6;
+  padding: 20px auto;
+  margin: 50px 0;
 }
 
 .w-480 {
@@ -324,4 +326,33 @@ margin: 0 auto;
 
 .sign-in-section {
   font-size: 12px;
+}
+
+.bottom-image {
+  border: 1px solid red;
+  margin: 0 auto;
+  width: 800px;
+  align-items: center;
+}
+
+.bottom-image img {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.bottom-info {
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+.bottom-info h1 a {
+  font-size: 25px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.bottom-info p {
+  font-size: 18px;
+  
 }
