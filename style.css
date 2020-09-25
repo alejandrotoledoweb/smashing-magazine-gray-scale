@@ -54,6 +54,15 @@ nav {
   background-color:  #acadad;
 }
 
+.c-gray {
+  color: gray;
+}
+
+.c-black {
+  color: black;
+}
+
+
 .mija {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -284,6 +293,7 @@ padding-bottom: 20px;
 
 .shop-div button {
   width: 170px;
+  height: 30px;
   font-size: 13px;
   margin: 0 auto;
 }
@@ -389,3 +399,32 @@ margin: 0 auto;
 .mid-section img {
   width: 70%;
 }
+
+.person-section img {
+  width: 200px;
+  height: 200px;
+}
+
+.person-section {
+  margin: 40px 80px 40px 50px; 
+  padding: 90px 60px 10px 80px;
+}
+
+.person-div {
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+.person-div h4 {
+  padding-bottom: 50px;
+}
+
+.person-div p {
+  line-height: 2rem;
+}
+
+.person-div a {
+  color: #acadad;
+}
+
