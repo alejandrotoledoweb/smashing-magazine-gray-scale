@@ -473,3 +473,61 @@ margin: 0 auto;
   height: 300px;
   margin-left: 70px;
 }
+
+.smashing-guide-top {
+  width: 90%;
+  margin: 30px 60px;
+}
+
+.l-top {
+  height: 350px;
+  border: 1px solid red;
+  padding: 30px;
+  background-color: white;
+  margin-right: 40px;
+}
+
+.l-top h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.l-top h1 a{
+  font-size: 35px;
+}
+
+.l-top p {
+  margin-top: 30px;
+  line-height: 1.7;
+  font-size: 20px;
+}
+
+.l-top button {
+  width: 420px;
+  height: 50px;
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+.smashing-guide-bottom {
+  width: 90%;
+  margin: 30px 60px;
+}
+
+.bottom-left {
+  height: 600px;
+  width: 45%;
+  margin-right: 40px;
+  padding: 30px;
+}
+
+.last-image {
+  width: 48.5%;
+  border: 1px solid red;
+
+}
+
+.last-image img {
+  width: 300px;
+  margin: 20px auto;
+}
