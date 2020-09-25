@@ -8,10 +8,11 @@
   <title>Document</title>
 </head>
 <body>
-  <header>
-    <div><img src="images/logo--full.svg" alt="Smashing MAgazine logo"></div>
-    <nav>
-      <ul>
+  <header class="d-flex w-100">
+    <div></div>
+    <nav class="w-100">
+      <ul class="d-flex menu">
+        <li><img src="images/logo--full.svg" alt="Smashing MAgazine logo"></li>
         <li>Articles</li>
         <li>Guides</li>
         <li>Books</li>
@@ -20,55 +21,74 @@
         <li>Jobs</li>
         <li>Newsletter</li>
         <li>More</li>
+        <li><input type="text"></li>
       </ul>
-      <input type="text">
+      
     </nav>
   </header>
 
-  <main>
-    <section>
-      <div>
+  <main class="w-100 d-flex v-flex">
+    <section class="sect-1 w-100">
+      <div class="in-btn-text">
         <h2>Don't Miss These Latest Articles</h2>
         <i></i>
         <span>Seriourly, red?</span>
       </div>
-      <div>
-        <img src="" alt="">
-        <p>Carrie Webter <cite>wrote</cite></wrote></p>
-        <p>Intuitive Design? No Such Thing!</p>
-        <span><i class="fas fa-comment-alt"></i>Leave a comment</span>
-        <p>UI<sup>92</sup></p>
-        <p>Design<sup>457</sup> </p>
-        <p>User Experience<sup>312</sup></p>
-        <i class="fas fa-arrow-right"></i>
-      </div>
-      <div>
-        <img src="" alt="">
-        <p>Saskia Freeke <cite>wrote</cite> </p>
-        <p>Unexpected LEarning From Coding Artwork Every Day For Five Years</p>
-        <span><i class="fas fa-comment-alt"></i>Leave a comment</span>
-        <p>Design<sup>457</sup></p>
-        <p>Graphics<sup>356</sup></p>
-        <i class="fas fa-arrow-right"></i>
-      </div>
-      <div>
-        <img src="" alt="">
-        <p>Bryan Robinson <cite>wrote</cite> </p>
-        <p>Simplify Your Stack With A Custom-Made Static Site Generator</p>
-        <span><i class="fas fa-comment-alt"></i> 2 Leave a comment</span>
-        <p>CMS<sup>20</sup></p>
-        <p>JavaScript<sup>290</sup></p>
-        <p>Frameworks<sup>64</sup></p>
-        <i class="fas fa-arrow-right"></i>
-      </div>
-      <div>
-        <img src="" alt="">
-        <p>Liam Griffin <cite>wrote</cite> </p>
-        <p>A CSS Grid Framework For Shopify Collection Pages</p>
-        <span><i class="fas fa-comment-alt"></i> 2 Leave a comment</span>
-        <p>CSS<sup>314</sup></p>
-        <p>E-Commerce<sup>59</sup></p>
-        <i class="fas fa-arrow-right"></i>
+      <div class="top-articles d-flex">
+        <div class="article-1">
+          <div class="d-flex">
+            <img class="img-profile" src="images/profile-image-placeholder.jpg" alt="">
+          <p>Carrie Webter <cite>wrote</cite></wrote></p>
+          </div>
+          <p class="top-article-main-text">Intuitive Design? No Such Thing! <span><i class="fas fa-comment-alt"></i> 	&nbsp; Leave a comment</span></p>
+          
+          <div class="hash d-flex">
+            <p>UI<sup>92</sup></p>
+          <p>Design<sup>457</sup> </p>
+          <p>User Experience<sup>312</sup></p>
+          </div>
+          <i class="fas article-arrow fa-arrow-right"></i>
+        </div>
+        <div class="article-2">
+          <div class="d-flex">
+            <img class="img-profile" src="images/profile-image-placeholder.jpg" alt="">
+          <p>Saskia Freeke <cite>wrote</cite> </p>
+          </div>
+          <p class="top-article-main-text">Unexpected LEarning From Coding Artwork Every Day For Five Years <span><i class="fas fa-comment-alt"></i> 	&nbsp; Leave a comment</span></p>
+          
+          <div class="hash d-flex">
+            <p>Design<sup>457</sup></p>
+            <p>Graphics<sup>356</sup></p>
+          </div>
+          <i class="fas article-arrow fa-arrow-right"></i>
+        </div>
+        <div class="article-3">
+          <div class="d-flex">
+            <img class="img-profile" src="images/profile-image-placeholder.jpg" alt="">
+          <p>Bryan Robinson <cite>wrote</cite> </p>
+          </div>
+          <p class="top-article-main-text">Simplify Your Stack With A Custom-Made Static Site Generator <span><i class="fas fa-comment-alt"></i> 2  	&nbsp; Leave a comment</span></p>
+          
+          <div class="hash d-flex">
+            <p>CMS<sup>20</sup></p>
+          <p>JavaScript<sup>290</sup></p>
+          <p>Frameworks<sup>64</sup></p>
+          </div>
+          <i class="fas article-arrow fa-arrow-right"></i>
+        </div>
+        <div class="article-4">
+          <div class="d-flex">
+            <img class="img-profile" src="images/profile-image-placeholder.jpg" alt="">
+            <p>Liam Griffin <cite>wrote</cite> </p>
+          </div>
+          <p class="top-article-main-text">A CSS Grid Framework For Shopify Collection Pages <span><i class="fas fa-comment-alt"></i> 2  	&nbsp; Leave a comment</span></p>
+          
+          <div class="hash d-flex">
+            <p>CSS<sup>314</sup></p>
+          <p>E-Commerce<sup>59</sup></p>
+          </div>
+          <i class="fas article-arrow fa-arrow-right"></i>
+        </div>
       </div>
 
     </section>
