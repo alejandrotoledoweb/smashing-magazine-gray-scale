@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color:  #d6d6d6;
 }
 
 /* Global Usage */
@@ -16,6 +17,10 @@
 
 .w-100 {
   width: 100%;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .border-menu {
@@ -39,6 +44,14 @@ nav {
 
 .c-white {
   color: white;
+}
+
+.bkground {
+  background-color: #d6d6d6;
+}
+
+.medium-bkground {
+  background-color:  #acadad;
 }
 
 .mija {
@@ -144,7 +157,7 @@ main {
 }
 
 .article-4 {
-  background-color: #d6d6d6;
+  background-color: #d6d6d6 !important;
 }
 
 .img-profile {
@@ -237,4 +250,78 @@ padding-bottom: 20px;
 
 .inline-text {
   background-color: #d6d6d6;
+}
+
+.w-480 {
+  width: 480px;
+}
+
+.shop-section {
+  padding-top: 40px;
+}
+
+.shop-div img {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.shop-div {
+  padding: 40px 40px;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.shop-div p {
+  padding: 20px 0;
+}
+
+.shop-div a {
+  color: black;
+  text-decoration: none;
+}
+
+.shop-div button {
+  width: 170px;
+  font-size: 13px;
+  margin: 0 auto;
+}
+
+.members-div {
+  border-radius: 10px;
+  padding: 15px 5px;
+}
+
+.members-div img {
+width: 250px;
+margin: 0 auto;
+}
+
+.members-div a {
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+}
+
+.members-div h1 {
+  font-size: 40px;
+  padding: 20px 0;
+}
+
+.members-div p {
+  width: 340px;
+  margin: 0 auto;
+  padding: 20px 0;
+  line-height: 35px;
+}
+
+.members-div button {
+  width: 230px;
+  height: 45px;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.sign-in-section {
+  font-size: 12px;
 }
