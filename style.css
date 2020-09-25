@@ -440,3 +440,36 @@ margin: 0 auto;
   padding-left: 30px;
 }
 
+.book-section {
+  padding: 80px;
+}
+
+.book-section h6 {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.book-section h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.book-section p {
+  font-size: 20px;
+  line-height: 1.6;
+  width: 800px;
+}
+
+.inside button {
+  width: 250px;
+  height: 50px;
+  margin: 20px 0;
+}
+
+.book {
+  float: right;
+  overflow: auto;
+  width: 200px;
+  height: 300px;
+  margin-left: 70px;
+}
