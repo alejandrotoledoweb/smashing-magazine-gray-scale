@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: #d6d6d6; */
 }
 
 img {
@@ -63,10 +62,6 @@ img {
   color: rgb(77, 76, 76);
 }
 
-.c-white {
-  color: white;
-}
-
 .mija {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -82,7 +77,6 @@ img {
 
 .justify-center {
   justify-content: center;
-  /* align-items: center; */
 }
 
 /* header */
