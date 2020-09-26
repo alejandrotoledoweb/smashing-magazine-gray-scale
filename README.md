@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Positioning and Floating Elements
+# Design and Teardown
 
-A clone of a New York Times Article page, made using HTML and CSS and implementing all positioning elements such as Float, Flexbox, and Grid. It includes an Article section, Navbar, Footer, and various spans.
+Smashing Magazine copy using gray heat map to show hierarchy of elements
 
 
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
 
 ## Built With
@@ -16,12 +16,10 @@ A clone of a New York Times Article page, made using HTML and CSS and implementi
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/alejandrotoledoweb/nyt-article/d310f128b6c58b22066b6148ce8785b774805c77/index.html)
+[Live Demo Link](hhttps://rawcdn.githack.com/alejandrotoledoweb/smashing-magazine-gray-scale/4268581b266d80d8d7a5198d0b6b32d7dc65f1a2/index.html)
 
 
 ## Getting Started
-
-
 
 To get a local copy up and running follow these simple example steps.
 
@@ -34,8 +32,8 @@ To get a local copy up and running follow these simple example steps.
 - Clone or download the repo and run the HTML File.
 
 ### Run tests
-- [We use Stylelint, Lighthout, & Webhint](https://github.com/alejandrotoledoweb/nyt-article/actions/runs/267307683)
-- Linters #14
+- [We use Stylelint, Lighthout, & Webhint](https://github.com/alejandrotoledoweb/smashing-magazine-gray-scale/actions/runs/273459777)
+- Linters #2
 
 
 ## Authors
@@ -48,15 +46,15 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author2**
 
-- GitHub: [@Janluc](https://github.com/Janluc)
-- Twitter: [@Janluc123](https://twitter.com/Janluc123)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/janluc-saneaux-91707a1b4/)
+- GitHub: [@Janluc](https://github.com/mke2111)
+- Twitter: [@Janluc123](https://twitter.com/roymkenya)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/roy-mukuye-42b07b1b4/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/alejandrotoledoweb/nyt-article/issues).
+Feel free to check the [issues page](https://github.com/alejandrotoledoweb/smashing-magazine-gray-scale/issues).
 
 ## Show your support
 
