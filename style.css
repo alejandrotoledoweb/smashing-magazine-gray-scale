@@ -68,10 +68,14 @@
   background-color: rgb(61, 61, 61);
 }
 
+.justify-center {
+  justify-content: center;
+  align-items: center;
+}
+
 /* header */
 
 header {
-  background-color: gray;
   padding: 20px;
 }
 
@@ -118,7 +122,6 @@ main {
   position: absolute;
   left: 14px;
   top: 22px;
-  color: black;
   z-index: 999;
 }
 
@@ -130,11 +133,9 @@ main {
   top: 10px;
   left: 38%;
   z-index: 999;
-  color: black;
 }
 
 .in-btn-text span mark {
-  background-color: white;
   line-height: 0.9;
   padding: 5px 0;
 }
@@ -217,13 +218,8 @@ main {
 }
 
 .article-spacing {
-font-size: 12px;
-color: gray;
-padding-bottom: 20px;
-}
-
-.article-row-1 p {
-  color: gray;
+  font-size: 12px;
+  padding-bottom: 20px;
 }
 
 .article-row-1 h5 span {
@@ -239,7 +235,6 @@ padding-bottom: 20px;
 }
 
 .corner i {
-  color: black;
   position: relative;
   z-index: 999;
   top: 40%;
@@ -287,7 +282,6 @@ padding-bottom: 20px;
 }
 
 .shop-div a {
-  color: black;
   text-decoration: none;
 }
 
@@ -310,7 +304,6 @@ margin: 0 auto;
 
 .members-div a {
   text-decoration: none;
-  color: black;
   text-decoration: underline;
 }
 
@@ -327,7 +320,7 @@ margin: 0 auto;
 }
 
 .members-div button {
-  width: 230px;
+  width: 250px;
   height: 45px;
   margin: 0 auto;
   border-radius: 10px;
@@ -358,7 +351,6 @@ margin: 0 auto;
 
 .bottom-info h1 a {
   font-size: 25px;
-  color: black;
   margin-bottom: 20px;
 }
 
@@ -374,10 +366,6 @@ margin: 0 auto;
 .mid-section h1 {
   margin: 20px auto;
   font-size: 40px;
-}
-
-.mid-section h1 a {
-  color: white;
 }
 
 .mid-section p {
@@ -424,7 +412,7 @@ margin: 0 auto;
 }
 
 .person-div a {
-  color: #acadad;
+  text-decoration: none;
 }
 
 .persons-section {
@@ -453,11 +441,11 @@ margin: 0 auto;
 .book-section p {
   font-size: 20px;
   line-height: 1.6;
-  width: 800px;
+  width: 1200px;
 }
 
 .inside button {
-  width: 250px;
+  width: 1300px;
   height: 50px;
   margin: 20px 0;
 }
@@ -471,6 +459,11 @@ margin: 0 auto;
   filter: grayscale(100%);
 }
 
+.inside button {
+  width: 400px;
+  font-size: 20px;
+}
+
 img {
   filter: grayscale(100%);
 }
@@ -481,9 +474,9 @@ img {
 }
 
 .l-top {
-  height: 350px;
+  height: px;
   border: 1px solid gray;
-  padding: 30px;
+  padding: 30px 30px;
   background-color: white;
   margin-right: 40px;
 }
@@ -512,7 +505,7 @@ img {
 
 .smashing-guide-bottom {
   width: 90%;
-  margin: 30px 60px;
+  margin: 30px 75px;
 }
 
 .bottom-left {
@@ -525,8 +518,8 @@ img {
 .last-image {
   width: 48.5%;
   border: 1px solid gray;
-  padding: 20px 30px;
-
+  padding: 20px 35px;
+  margin: 0 12px;
 }
 
 .last-image img {
