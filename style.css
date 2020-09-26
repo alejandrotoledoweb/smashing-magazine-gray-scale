@@ -31,17 +31,6 @@
   padding: 10px 15px;
 }
 
-/* header */
-
-header {
-  background-color: gray;
-  padding: 20px;
-}
-
-nav {
-  border: 1px solid red;
-}
-
 .c-white {
   color: white;
 }
@@ -71,6 +60,21 @@ nav {
   font-weight: 700;
 }
 
+.medium-dark {
+  background-color: rgb(105, 104, 104);
+}
+
+.darker-menu {
+  background-color: rgb(61, 61, 61);
+}
+
+/* header */
+
+header {
+  background-color: gray;
+  padding: 20px;
+}
+
 .menu {
   justify-content: space-between;
   align-items: center;
@@ -83,7 +87,7 @@ nav {
 }
 
 main {
-  border: 1px solid red;
+  border-top: 1px solid gray;
 }
 
 .logo-section {
@@ -100,13 +104,7 @@ main {
   width: 400px;
 }
 
-.medium-dark {
-  background-color: rgb(105, 104, 104);
-}
 
-.darker-menu {
-  background-color: rgb(61, 61, 61);
-}
 .sect-1 {
   position: relative;
   width: 100%;
@@ -152,7 +150,6 @@ main {
   height: 570px;
   position: relative;
 }
-
 
 .article-1 {
   background-color: #bbbdbf;
@@ -342,7 +339,7 @@ margin: 0 auto;
 }
 
 .bottom-image {
-  border: 1px solid red;
+  border: 1px solid gray;
   margin: 0 auto;
   width: 800px;
   align-items: center;
@@ -372,7 +369,6 @@ margin: 0 auto;
 
 .mid-section {
   margin: 20px 0;
-  border: 1px solid red;
 }
 
 .mid-section h1 {
@@ -472,6 +468,11 @@ margin: 0 auto;
   width: 200px;
   height: 300px;
   margin-left: 70px;
+  filter: grayscale(100%);
+}
+
+img {
+  filter: grayscale(100%);
 }
 
 .smashing-guide-top {
@@ -481,7 +482,7 @@ margin: 0 auto;
 
 .l-top {
   height: 350px;
-  border: 1px solid red;
+  border: 1px solid gray;
   padding: 30px;
   background-color: white;
   margin-right: 40px;
@@ -523,11 +524,72 @@ margin: 0 auto;
 
 .last-image {
   width: 48.5%;
-  border: 1px solid red;
+  border: 1px solid gray;
+  padding: 20px 30px;
 
 }
 
 .last-image img {
   width: 300px;
   margin: 20px auto;
+}
+
+.last-image h2 a {
+  font-size: 35px;
+}
+
+.last-image p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.subscribe {
+  width: 450px;
+  margin: 20px 0
+}
+
+.subscribe-button {
+  width: 100px;
+  height: 50px;
+  font-size: 22px;
+  border: none;
+  background-color: gray;
+}
+
+.subscribe-input {
+  width: 320px;
+  height: 50px;
+  font-size: 22px;
+}
+
+#last {
+  width: 280px;
+  font-size: 15px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+footer ul {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer ul li {
+  /* list-style: none; */
+  line-height: 40px;
+  margin-left: 30px;
+}
+
+footer p {
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+.details {
+  width: 600px;
+  margin: 10px auto;
+}
+
+.details ul li{
+  list-style: none;
 }
