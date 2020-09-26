@@ -16,7 +16,7 @@ Smashing Magazine copy using gray heat map to show hierarchy of elements
 
 ## Live Demo
 
-[Live Demo Link](hhttps://rawcdn.githack.com/alejandrotoledoweb/smashing-magazine-gray-scale/4268581b266d80d8d7a5198d0b6b32d7dc65f1a2/index.html)
+[Live Demo Link](https://rawcdn.githack.com/alejandrotoledoweb/smashing-magazine-gray-scale/4268581b266d80d8d7a5198d0b6b32d7dc65f1a2/index.html)
 
 
 ## Getting Started
@@ -46,9 +46,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author2**
 
-- GitHub: [@Janluc](https://github.com/mke2111)
-- Twitter: [@Janluc123](https://twitter.com/roymkenya)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/roy-mukuye-42b07b1b4/)
+- GitHub: [@mke2111](https://github.com/mke2111)
+- Twitter: [@Roymkenya](https://twitter.com/Roymkenya)
+- LinkedIn: [Roy Mukuye](https://www.linkedin.com/in/roy-mukuye-42b07b1b4)
 
 ## 🤝 Contributing
 
