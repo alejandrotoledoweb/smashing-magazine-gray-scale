@@ -2,7 +2,7 @@
 
 # Design and Teardown
 
-Smashing Magazine copy using gray heat map to show hierarchy of elements
+Smashing Magazine copy using a grey heat map to show the hierarchy of elements
 
 
 ![screenshot](./screenshot.png)
